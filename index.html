@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmOne Website</title>
+<link rel="icon" type="image/icon" href="image/favicon.PNG">
+
+<!-- Code for font awesome cdn-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Code for font awesome cdn-->
+<!--Code for linking css file-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--Code for linking css file-->
+<link rel="stylesheet" href="https://unpkg.com/swiper@07/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <!--header Section-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket"></i>FarmOne</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn" ></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here......">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-1.png">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">Rs.50.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-2.png">
+                <div class="content">
+                    <h3>Oninon</h3>
+                    <span class="price">Rs.40.99/-</span>
+                    <span class="quantity">Qty : 2</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-3.png">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">Rs.250.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total : $18.97/-</div>
+            <a href="#" class="btn">CheckOut</a>
+        </div>
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forgot Your Password <a href="#">Click Here</a></p>
+            <p>Don't Have An Account <a href="#">Create Now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+    <!--header Section-->
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh And <span>Organic</span> Products For You</h3>
+            <p>
+                Fresh and organic products offer you pure, unprocessed items packed with nutrients and natural flavors. They promote healthier living and contribute to a more eco-friendly lifestyle</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+    </section>
+    <!--home section-->
+    <!--Feature section-->
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/feature-img-1.png">
+                <h3>fresh and organic</h3>
+                <p>
+                    Fresh and organic produce .</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-2.png">
+                <h3>free delivery</h3>
+                <p>
+                    Fresh and organic produce .</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-3.png">
+                <h3>easy payments</h3>
+                <p>
+                    Fresh and organic produce.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--Feature section-->
+
+    <!--Product section-->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>Products</span></h1>
+    
+        <div class="product-slider">
+                <div class="box">
+                    <img src="image/product-1.png">
+                    <h1>fresh orange</h1>
+                    <div class="price">Rs.10.99/- - 15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-2.png">
+                    <h1>Oninon</h1>
+                    <div class="price">Rs.10.99/- - 15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-3.png">
+                    <h1>Meat</h1>
+                    <div class="price">Rs.10.99/- - 15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-4.png">
+                    <h1>Cabbage</h1>
+                    <div class="price">Rs.10.99/- - 15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>   
+                    <div class="box">
+                        <img src="image/product-5.png">
+                        <h1>fresh potato</h1>
+                        <div class="price">Rs.10.99/- - 15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="box">
+                        <img src="image/product-6.png">
+                        <h1>Avocado</h1>
+                        <div class="price">Rs.10.99/- - 15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="box">
+                        <img src="image/product-7.png">
+                        <h1>Carrot</h1>
+                        <div class="price">Rs.10.99/- - 15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="box">
+                        <img src="image/product-8.png">
+                        <h1>Green Lemon</h1>
+                        <div class="price">Rs.10.99/- - 15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>   
+            </div>
+    </section>
+    <!--Product section-->
+    <!--Our categories section-->
+    <section class="categories" id="categories">
+        <h1 class="heading">product<span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/cat-1.png">
+                <h3>Vegetables</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-2.png">
+                <h3>Fresh Fruits</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-3.png">
+                <h3>Daily Products</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/cat-4.png">
+                <h3>Fresh Meat</h3>
+                <p>Upto 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Our categories section-->
+
+    <!--review section-->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>Review</span></h1>
+
+        <div class="review-slider">
+            <div class="box">
+                <img src="image/pic-1.png">
+                <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/pic-2.png">
+                <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/pic-3.png">
+                <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/pic-4.png">
+                <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                <h3>John Deo</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--review section-->
+
+    <!--Blog Section-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our <span>Blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/blog-1.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"> By User</i></a>
+                        <a href="#"><i class="fa fa-calendar"> 1st May,2024</i></a>
+                    </div>
+                    <h3>
+                        Fresh And Organic </h3>
+                        <h3>    Vegetables And Fruits
+                    </h3>
+                    <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-2.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"> By User</i></a>
+                        <a href="#"><i class="fa fa-calendar"> 1st May,2024</i></a>
+                    </div>
+                    <h3>
+                        Fresh And Organic </h3>
+                        <h3>    Vegetables And Fruits
+                    </h3>
+                    <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/blog-3.jpg">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"> By User</i></a>
+                        <a href="#"><i class="fa fa-calendar"> 1st May,2024</i></a>
+                    </div>
+                    <h3>
+                        Fresh And Organic </h3>
+                        <h3>    Vegetables And Fruits
+                    </h3>
+                    <p>I recently purchased fresh avocados from this website, and I must say they were of excellent quality! The texture was creamy, the taste was perfect, and they arrived in great condition. The delivery was fast, and the packaging ensured the produce stayed fresh.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Blog Section-->
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Groco <i class="fa fa-shopping-basket"></i></h3>
+                <p>Feel Free to Follow Us On Our Social Media Handlers All The Links Are Given Below</p>
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +91 9876543210</a>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +91 8976543210</a>
+                <a href="#" class="links"><i class="fa fa-envelope"></i> info@gmail.com</a>
+                <a href="#" class="links"><i class="fa fa-map-marker"></i> Hyderabad, India - 500053</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Products</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Review</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>News Letter</h3>
+                <p>Subscribe for latest update</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <br>
+                <button type="submit" name="Subscribe" class="btn"> Subscribe</button>
+                <img src="image/payment.png" class="payment-img">
+            </div>
+        </div>
+
+    <div class="credit">Created By <span class="span">Warriors </span>| All Rights Reserved</div>
+        
+    </section>
+
+    <!--footer section-->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
