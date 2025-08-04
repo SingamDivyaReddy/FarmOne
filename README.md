@@ -31,6 +31,18 @@ A simple and intuitive web platform that connects farmers directly with consumer
 - Allows consumers to access organic, farm-fresh produce
 - Can be extended to include logistics, digital payments, and real-time inventory
 
-## 👩‍💻 Author
 
-- **Divya Reddy** – [GitHub](https://github.com/SingamDivyaReddy)
+
+## 📄 License
+
+This project is open-source under the **MIT License**. See the [LICENSE](./LICENSE) file for more info.
+
+
+
+## 👤 Author
+
+**Divya Reddy Singam**  
+GitHub: [@SingamDivyaReddy](https://github.com/SingamDivyaReddy)
+
+
+⭐ **Star this repository if you found it helpful!**  
